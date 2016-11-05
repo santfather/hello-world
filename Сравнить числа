@@ -1,3 +1,4 @@
+
 package sravnenie;
 
 import java.util.Scanner;
@@ -14,14 +15,14 @@ public class Chisla {
 		try {
 			int n1 = Integer.parseInt(num1);
 			int n2 = Integer.parseInt(num2);
-		} catch (NumberFormatException e) {
-			if (n1 > n2);
+			if (n1 > n2)
 			{
 				System.out.println(n1 + "больше");
-			}
-			{
+			} else {
 				System.out.println(n2 + "больше");
 			}
-		}
-	}
+		}catch (NumberFormatException e) {
+			System.err.println("Введены некорректные числа");
+}
+}
 }
