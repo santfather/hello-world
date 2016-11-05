@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Chastnoe {
+	
+		private static Scanner in;
+
+		public static void main(String[] args) {
+			in = new Scanner(System.in);
+			System.out.println("Введите 2 числа");
+			String num1 = in.nextLine();
+			String num2 = in.nextLine();
+			try {
+				int n1 = Integer.parseInt(num1);
+				int n2 = Integer.parseInt(num2);
+			System.out.println(n1/n2);
+	}catch (NumberFormatException e){
+}
+}
+}
