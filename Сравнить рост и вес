@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class parametry {
+
+	private static Scanner in;
+
+	public static void main(String[] args) {
+		in = new Scanner(System.in);
+		System.out.println("Введите рос и вес с новой строки. После ввода каждого из параметров нажмите enter");
+		String heigth = (in.nextLine());
+		String weigth = (in.nextLine());
+		try {
+			int h1 = Integer.parseInt(heigth);
+			int w1 = Integer.parseInt(weigth);
+			if ((h1 - 100) > w1) {
+				System.out.println("Вам нужно поправиться");
+			} else {
+				System.out.println("Вам нужно похудеть");
+			}
+			if ((h1-100) == w1)
+				System.out.println("У вас идеальный вес");
+		} catch (NumberFormatException e) {
+		}
+	}
+}
