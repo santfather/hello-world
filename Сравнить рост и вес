@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class parametry {
+public class Parametry {
 
 	private static Scanner in;
 
@@ -14,11 +14,11 @@ public class parametry {
 			int w1 = Integer.parseInt(weigth);
 			if ((h1 - 100) > w1) {
 				System.out.println("Вам нужно поправиться");
-			} else {
-				System.out.println("Вам нужно похудеть");
-			}
-			if ((h1-100) == w1)
+			} else if ((h1-100) == w1) {
 				System.out.println("У вас идеальный вес");
+			}
+			else 
+				System.out.println("Вам нужно похудеть");
 		} catch (NumberFormatException e) {
 		}
 	}
