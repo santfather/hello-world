@@ -1,0 +1,60 @@
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class vegetable {
+	interface Vegetable {
+	    void wash();
+	    void peel();
+	    void cut();
+	    void boil();
+	}
+	ArreyList vegetablename=new ArreyList();
+	public class ArreyListCallories {
+	ArreyList vegetableсallories=new ArreyList();
+	public class ArreyListtaste {
+	ArreyList vegetabletaste=new ArreyList();
+   	void wash()	{   
+	}
+    void peel() {
+	}
+    void cut() {
+    }
+    	void cutStrips(){
+	}
+    	void cutSlice() {
+    	}
+    void boil() {
+    }
+    	void boilTime() {
+    	}
+    void taste(){
+    }
+    void color(){
+    }
+	public void main(String[] args) {
+		       vegetable a=new roots("корнеплоды");
+		       vegetable b=new potatoes("клубневые"); 
+		       vegetable c=new gourd("тыквенные");
+		       vegetable d=new solanaceae("пасленовые");
+	}
+	
+		}
+			 
+		class roots implements vegetable {
+		   
+		    }
+		 
+		}
+		 
+		class portatoes implements vegetable {
+		 	    
+		 }
+			
+	}
+		class gourd implements vegetable {
+	}
+		
+		class solanaceae implement vegetable {
+			
+	}
