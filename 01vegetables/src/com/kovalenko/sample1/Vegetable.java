@@ -6,22 +6,25 @@ public abstract class Vegetable {
 	
 	private String name;
 	
-	public Vegetable (int kcal, String name) {
+	private String taste;
+	
+	public Vegetable (int kcal, String name, String taste) {
 		this.kcal = kcal;
 		this.name = name;
+		this.taste = taste;
 	}
 
    	public abstract void wash();
     public abstract void peel();
     public abstract void cut();
 //    public abstract void cutStrips();
-    public abstract void boil();
+   // public abstract void boil();
     //	void boilTime() {
     //	}
-    void taste(){
-    }
-    void color(){
-    }
+   // void taste(){
+    //}
+    //void color(){
+    //}
     
 	public int getKcal() {
 		return kcal;
@@ -30,4 +33,8 @@ public abstract class Vegetable {
 	public String getName() {
 		return name;
 	}
-}
+	public String getTaste(){
+		return taste;
+	}
+	}
+

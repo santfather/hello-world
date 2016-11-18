@@ -2,8 +2,8 @@ package com.kovalenko.sample1;
 
 public abstract class Potatoes extends Vegetable {
 	
-	public Potatoes(int kcal, String name) {
-		super(kcal, name);
+	public Potatoes(int kcal, String name, String taste) {
+		super(kcal, name, taste);
 	}
 
 	@Override
@@ -23,11 +23,11 @@ public abstract class Potatoes extends Vegetable {
 		cutSlice();
 	}
 
-	@Override
-	public void boil() {
+	//@Override
+	//public void boil() {
 		// TODO Auto-generated method stub
 		
-	}
+	
 
 	public abstract void cutSlice();
 

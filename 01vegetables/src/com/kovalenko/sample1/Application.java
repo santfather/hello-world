@@ -12,8 +12,14 @@ public class Application {
 		
 		vegetables.add(new Potato());
 		vegetables.add(new Topinambur());
+		vegetables.add(new Carrot());
+		vegetables.add(new Radish());
+		vegetables.add(new Pumpkin());
+		vegetables.add(new Squash());
+		vegetables.add(new Tomato());
+		vegetables.add(new Eggplant());
 		
-		System.out.println("Ovoschi po vozrastaniju kalorijnisti");
+		System.out.println("Овощи по каллорийности");
 		
 		Collections.sort(vegetables, new Comparator<Vegetable>() {
 		    @Override
@@ -25,11 +31,6 @@ public class Application {
 		for (Vegetable v : vegetables) {
 			System.out.println(v.getName()+": "+v.getKcal());
 		}
-		
-//	       Vegetable a=new roots("корнеплоды");
-//	       Vegetable b=new potatoes("клубневые"); 
-//	       Vegetable c=new gourd("тыквенные");
-//	       Vegetable d=new solanaceae("пасленовые");
 	}
 
 }

@@ -3,7 +3,7 @@ package com.kovalenko.sample1;
 public class Topinambur extends Potatoes {
 	
 	public Topinambur() {
-		super(120, "topinambur");
+		super(61, "топинамбур", "сладковатый");
 	}
 
 	@Override
