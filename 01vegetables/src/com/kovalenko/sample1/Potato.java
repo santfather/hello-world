@@ -8,7 +8,7 @@ package com.kovalenko.sample1;
 public class Potato extends Potatoes {
 	
 	public Potato() {
-		super(100);
+		super(100, "bulba");
 	}
 
 	@Override

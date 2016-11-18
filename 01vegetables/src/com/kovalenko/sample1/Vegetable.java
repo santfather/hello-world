@@ -4,8 +4,11 @@ public abstract class Vegetable {
 	
 	protected int kcal;
 	
-	public Vegetable (int kcal) {
+	private String name;
+	
+	public Vegetable (int kcal, String name) {
 		this.kcal = kcal;
+		this.name = name;
 	}
 
    	public abstract void wash();
@@ -19,4 +22,12 @@ public abstract class Vegetable {
     }
     void color(){
     }
+    
+	public int getKcal() {
+		return kcal;
+	}
+
+	public String getName() {
+		return name;
+	}
 }
